@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 // TODO: Update this to your custom domain
-const baseUrl = "https://tanzir.dev";
+const baseUrl = "";  //jhttps://tanzir.dev
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoute: MetadataRoute.Sitemap = [
