@@ -50,7 +50,7 @@ export const DATA = {
     PRONOUN: "he/him",
     HEADLINE:
       "AI Engineer specializing in LLMs, Voice AI, and production-ready AI systems.",
-    RESUME: "/resume.pdf",
+    RESUME: "/Rafsan_Resume.pdf",
     EMAIL: "mailto:abrafsan21@gmail.com",
     GITHUB: "https://github.com/RafsanMunnaf",
     LINKEDIN: "https://www.linkedin.com/in/abdul-munnaf-rafsan-a92167339/",
