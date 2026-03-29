@@ -106,7 +106,7 @@ export const DATA = {
       CATEGORY: "Voice AI & Automation",
       IMAGE: WeatherAppImage,
       GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
+      DEMO: "https://agenticai.betopialimited.com/",
       FEATURED: true
     },
     {
@@ -125,7 +125,7 @@ export const DATA = {
       CATEGORY: "Computer Vision & AI",
       IMAGE: PickAndPlaceImage,
       GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
+      DEMO: "https://nutraai.app/",
       FEATURED: true
     },
     {
@@ -144,7 +144,7 @@ export const DATA = {
       CATEGORY: "AI & FinTech",
       IMAGE: DubAIImage,
       GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
+      DEMO: "https://fondify.io/",
       FEATURED: true
     },
     {
@@ -163,7 +163,7 @@ export const DATA = {
       CATEGORY: "Agents & NLP",
       IMAGE: BusETicketImage,
       GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
+      DEMO: "https://mtravel.ai/",
       FEATURED: true
     },
     {
