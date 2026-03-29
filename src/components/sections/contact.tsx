@@ -5,7 +5,7 @@ import { Calendar } from "lucide-react";
 import { CalendlyModal } from "../ui/calendly-modal";
 
 export function Contact() {
-  const bookingUrl = `https://calendly.com/mailme-tanzir/30min`;
+  const bookingUrl = `https://calendly.com/abrafsan21/30min`;
   const [showCalendly, setShowCalendly] = useState(false);
 
   return (

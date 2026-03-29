@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.tanzir.dev/sitemap.xml
+Sitemap: https://rafsan.vercel.app/sitemap.xml

@@ -15,7 +15,7 @@ export function ChatBot() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: "Hi — I'm Tanzir's AI companion. I can help with questions about his projects, experience, skills, or portfolio. Ask me anything to get started!",
+      content: "Hi — I'm Rafsan's AI companion. I can help with questions about his projects, experience, skills, or portfolio. Ask me anything to get started!",
     },
   ]);
   const [inputMessage, setInputMessage] = useState('');
@@ -147,7 +147,7 @@ export function ChatBot() {
         ...newMessages,
         {
           role: 'assistant',
-          content: "I apologize, but I'm currently unable to respond. Please feel free to explore the website to learn more about Tanzir's experience, projects, and skills. You can also reach out directly via email at mailme.tanzir@gmail.com or connect on GitHub.",
+          content: "I apologize, but I'm currently unable to respond. Please feel free to explore the website to learn more about Rafsan's experience, projects, and skills. You can also reach out directly via email at abrafsan21@gmail.com or connect on GitHub.",
         },
       ]);
       setIsLoading(false);

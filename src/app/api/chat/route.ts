@@ -33,8 +33,7 @@ ${roles}`;
       return `**${institution}** (${details.LOCATION})
    - ${details.DEGREE}
    - Duration: ${details.DURATION}
-   - Grade: ${details.GRADE}
-   - Achievements: ${details.ACHIEVEMENTS.join(', ')}`;
+   - Grade: ${details.GRADE}`;
     })
     .join('\n\n');
 
@@ -43,21 +42,7 @@ ${roles}`;
     .map(([title, details]) => {
       return `**${title}**
    - Status: ${details.STATUS}
-   - Collaborators: ${details.COLLABORATORS.join(', ')}
-   - ${details.DESCRIPTION}${'LINK' in details ? `\n   - Link: ${details.LINK}` : ''}`;
-    })
-    .join('\n\n');
-
-  // Format Awards & Certifications
-  const awardsText = Object.entries(DATA['AWARDS & CERTIFICATIONS'])
-    .filter(([, details]) => details.FEATURED)
-    .map(([title, details]) => {
-      let text = `**${title}**
-   - Type: ${details.TYPE}
-   - Date: ${details.DATE}
-   - ${details.DESCRIPTION}`;
-      if ('LINK' in details) text += `\n   - Link: ${details.LINK}`;
-      return text;
+   - ${details.DESCRIPTION}${'LINK' in details && details.LINK ? `\n   - Link: ${details.LINK}` : ''}`;
     })
     .join('\n\n');
 
@@ -66,21 +51,20 @@ ${roles}`;
     .map(([category, skills]) => `- ${category}: ${skills.join(', ')}`)
     .join('\n');
 
-  return `You are Tanzir's AI companion who knows everything about him. Speak in a warm, friendly, and conversational tone as if you're a close companion introducing Tanzir to someone new. Use "he" or "Tanzir" when referring to him, and feel free to share insights about his work, personality, and achievements with enthusiasm. You're here to help visitors get to know your companion better!
+  return `You are Rafsan's AI companion who knows everything about him. Speak in a warm, friendly, and conversational tone as if you're a close companion introducing Rafsan to someone new. Use "he" or "Rafsan" when referring to him, and feel free to share insights about his work, personality, and achievements with enthusiasm. You're here to help visitors get to know your companion better!
 
-Here's everything you know about Tanzir:
+Here's everything you know about Rafsan:
 
 **Basic Info:**
 - Name: ${DATA.HEADER.NAME}
 - Age: ${DATA.HEADER.AGE}
 - Pronouns: ${DATA.HEADER.PRONOUN}
 - Email: ${DATA.HEADER.EMAIL}
-- Work Email: ${DATA.HEADER.EMAIL_JVAI}
 - GitHub: ${DATA.HEADER.GITHUB}
 - LinkedIn: ${DATA.HEADER.LINKEDIN}
 
 **Personal Info:**
-Loves to read books and explore new technologies. Enjoys learning and building creative AI/ML projects. Tanzir is currently living in Dhaka, Bangladesh. He is a focused, dedicated and friendly person who loves to explore new ideas in artificial intelligence.
+Rafsan is an AI Engineer and Python Developer currently living in Dhaka, Bangladesh. He is a focused, dedicated and friendly person who loves to explore new ideas in artificial intelligence, voice AI, and building production-ready AI systems.
 
 **About:**
 ${DATA.ABOUT_ME.INTRO}
@@ -103,14 +87,10 @@ ${researchText}
 
 ${projectsText}
 
-**Featured Awards & Certifications:**
-
-${awardsText}
-
 **Skills:**
 ${skillsText}
 
-Keep responses concise and direct - only answer what's specifically asked. Maintain a semi-casual, friendly tone without being overly playful or enthusiastic. Be straightforward and factual about Tanzir's work and achievements. Don't volunteer extra information unless directly relevant to the question. If you don't know something, simply say so without elaboration. Elaborate only when asked for more details. Maintain a semi casual tone throughout your responses. Dont respond to any other topic other than Tanzir`;
+Keep responses concise and direct - only answer what's specifically asked. Maintain a semi-casual, friendly tone without being overly playful or enthusiastic. Be straightforward and factual about Rafsan's work and achievements. Don't volunteer extra information unless directly relevant to the question. If you don't know something, simply say so without elaboration. Elaborate only when asked for more details. Maintain a semi casual tone throughout your responses. Dont respond to any other topic other than Rafsan`;
 }
 
 export async function POST(req: Request) {
@@ -168,7 +148,7 @@ export async function POST(req: Request) {
     console.error('OpenAI API error:', error);
     
     // Return a polite fallback message as a stream
-    const fallbackMessage = "I apologize, but I'm currently unable to respond. Please feel free to explore the website to learn more about Tanzir's experience, projects, and skills. You can also reach out directly via email at mailme.tanzir@gmail.com or connect on GitHub.";
+    const fallbackMessage = "I apologize, but I'm currently unable to respond. Please feel free to explore the website to learn more about Rafsan's experience, projects, and skills. You can also reach out directly via email at abrafsan21@gmail.com or connect on GitHub.";
     
     const encoder = new TextEncoder();
     const readable = new ReadableStream({

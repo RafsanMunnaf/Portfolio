@@ -13,7 +13,7 @@ export function Footer() {
       <div className="flex max-md:flex-col justify-between items-center max-md:gap-2 py-10 border-gray-800 border-t">
         <div className="flex flex-col gap-1 text-center md:text-left">
           <p className="text-muted-foreground text-base">
-            &copy; {new Date().getFullYear()} Tanzir Hossain. All rights reserved.
+            &copy; {new Date().getFullYear()} Abdul Munnaf Rafsan. All rights reserved.
           </p>
           
         </div>

@@ -14,20 +14,18 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tanzir.dev"),
+  metadataBase: new URL("https://rafsan.vercel.app"),
   title: {
-    default: "Tanzir Hossain | AI Engineer",
-    template: "%s | Tanzir Hossain",
+    default: "Abdul Munnaf Rafsan | AI Engineer",
+    template: "%s | Abdul Munnaf Rafsan",
   },
   description:
-    "AI Engineer specializing in machine learning, natural language processing, and automation. Building smart, efficient solutions with LLMs, RAG pipelines, and AI workflows.",
+    "AI Engineer specializing in LLMs, Voice AI, RAG architectures, and production-ready AI systems. Building intelligent solutions with deep learning, NLP, and generative AI.",
   keywords: [
-    "Tanzir",
-    "Hossain",
-    "Tanzir Hossain",
-    "Tanzir Hossain Shrizon",
-    "Shrizon",
+    "Abdul Munnaf Rafsan",
+    "Rafsan",
     "AI Engineer",
+    "Python Developer",
     "Machine Learning Engineer",
     "NLP Engineer",
     "Natural Language Processing",
@@ -40,32 +38,29 @@ export const metadata: Metadata = {
     "TensorFlow",
     "RAG Systems",
     "LLM Fine-tuning",
-    "LoRA",
-    "QLoRA",
-    "n8n Automation",
+    "Voice AI",
+    "Generative AI",
+    "OCR",
     "FastAPI",
     "Hugging Face",
-    "Vector Databases",
     "Portfolio",
     "Next.js",
     "React",
-    "Automation",
     "BRAC University",
     "Join Venture AI",
-    "Time Research and Innovation LTD",
   ],
-  authors: [{ name: "Tanzir Hossain", url: "https://tanzir.dev" }],
-  creator: "Tanzir Hossain",
-  publisher: "Tanzir Hossain",
+  authors: [{ name: "Abdul Munnaf Rafsan", url: "https://rafsan.vercel.app" }],
+  creator: "Abdul Munnaf Rafsan",
+  publisher: "Abdul Munnaf Rafsan",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Tanzir Hossain | AI Engineer",
+    title: "Abdul Munnaf Rafsan | AI Engineer",
     description:
-      "AI Engineer specializing in machine learning, natural language processing, and automation. Building smart, efficient solutions with LLMs, RAG pipelines, and AI workflows.",
-    url: "https://tanzir.dev/",
-    siteName: "Tanzir Hossain",
+      "AI Engineer specializing in LLMs, Voice AI, RAG architectures, and production-ready AI systems. Building intelligent solutions with deep learning, NLP, and generative AI.",
+    url: "https://rafsan.vercel.app/",
+    siteName: "Abdul Munnaf Rafsan",
     locale: "en_US",
     type: "website",
     images: [
@@ -73,15 +68,15 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Tanzir Hossain | AI Engineer",
+        alt: "Abdul Munnaf Rafsan | AI Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tanzir Hossain | AI Engineer",
+    title: "Abdul Munnaf Rafsan | AI Engineer",
     description:
-      "AI Engineer specializing in machine learning, natural language processing, and automation. Building smart, efficient solutions with LLMs, RAG pipelines, and AI workflows.",
+      "AI Engineer specializing in LLMs, Voice AI, RAG architectures, and production-ready AI systems. Building intelligent solutions with deep learning, NLP, and generative AI.",
     images: ["/opengraph-image.png"],
   },
   robots: {
@@ -105,10 +100,9 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Tanzir Hossain",
-    alternateName: "Tanzir Hossain Shrizon",
-    url: "https://tanzir.dev",
-    image: "https://tanzir.dev/opengraph-image.png",
+    name: "Abdul Munnaf Rafsan",
+    url: "https://rafsan.vercel.app",
+    image: "https://rafsan.vercel.app/opengraph-image.png",
     jobTitle: "AI Engineer",
     worksFor: {
       "@type": "Organization",
@@ -119,9 +113,8 @@ export default function RootLayout({
       name: "BRAC University",
     },
     sameAs: [
-      "https://github.com/itsShrizon",
-      "https://www.linkedin.com/in/tanzir-hossain-shrizon/",
-      "https://tanzir.dev/",
+      "https://github.com/RafsanMunnaf",
+      "https://www.linkedin.com/in/abdul-munnaf-rafsan-a92167339/",
     ],
     knowsAbout: [
       "Artificial Intelligence",
@@ -129,20 +122,18 @@ export default function RootLayout({
       "Deep Learning",
       "Natural Language Processing",
       "LLM Fine-tuning",
-      "LoRA",
-      "QLoRA",
-      "PEFT",
-      "Unsloth",
-      "LangChain",
-      "LangGraph",
+      "Voice AI",
+      "Generative AI",
+      "RAG Systems",
+      "OCR",
       "Python",
       "FastAPI",
-      "RAG Systems",
-      "n8n Automation",
+      "LangChain",
+      "LangGraph",
       "TensorFlow",
       "PyTorch",
       "Hugging Face",
-      "Vector Databases",
+      "Docker",
     ],
   };
 
@@ -151,15 +142,15 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#0b1021" media="(prefers-color-scheme: dark)" />
         <meta name="theme-color" content="#f9fafb" media="(prefers-color-scheme: light)" />
-        <meta name="application-name" content="Tanzir Hossain" />
+        <meta name="application-name" content="Abdul Munnaf Rafsan" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: 'Tanzir Hossain | AI Engineer',
-              url: 'https://tanzir.dev',
+              name: 'Abdul Munnaf Rafsan | AI Engineer',
+              url: 'https://rafsan.vercel.app',
               potentialAction: {
                 '@type': 'SearchAction',
                 target: 'https://www.google.com/search?q={search_term_string}',

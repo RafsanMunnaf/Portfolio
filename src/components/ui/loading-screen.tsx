@@ -44,7 +44,7 @@ export function LoadingScreen() {
         {/* Logo/Name with animation */}
         <div className="relative">
           <h1 className="font-bold text-4xl md:text-5xl tracking-tighter animate-in fade-in slide-in-from-bottom-4 duration-700">
-            tanzir.
+            rafsan.
           </h1>
           <div className="absolute -bottom-2 left-0 h-[2px] bg-primary animate-[shimmer_2s_ease-in-out_infinite]" 
                style={{ width: "100%" }}></div>

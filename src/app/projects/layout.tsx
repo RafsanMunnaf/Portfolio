@@ -5,10 +5,10 @@ export const metadata: Metadata = {
   description:
     "Explore my portfolio of AI/ML, software development, and robotics projects. From RAG systems and agentic AI to computer vision applications and robotic solutions.",
   openGraph: {
-    title: "Projects | Tanzir Hossain",
+    title: "Projects | Abdul Munnaf Rafsan",
     description:
       "Explore my portfolio of AI/ML, software development, and robotics projects. From RAG systems and agentic AI to computer vision applications and robotic solutions.",
-    url: "https://tanzir.dev/projects",
+    url: "https://rafsan.vercel.app/projects",
     type: "website",
   },
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "Microservices",
   ],
   alternates: {
-    canonical: "https://tanzir.dev/projects",
+    canonical: "https://rafsan.vercel.app/projects",
   },
 };
 

@@ -45,26 +45,25 @@ const dynamicAge = currentYear - birthYear;
 
 export const DATA = {
   HEADER: {
-    NAME: "Tanzir Hossain",
+    NAME: "Abdul Munnaf Rafsan",
     AGE: dynamicAge,
     PRONOUN: "he/him",
     HEADLINE:
-      "AI Engineer specializing in machine learning, NLP, and intelligent automation.",
+      "AI Engineer specializing in LLMs, Voice AI, and production-ready AI systems.",
     RESUME: "/Resume.pdf",
-    EMAIL: "mailto:mailme.tanzir@gmail.com",
-    EMAIL_JVAI: "mailto:tanzir@joinventureai.com",
-    GITHUB: "https://github.com/itsShrizon",
-    LINKEDIN: "https://www.linkedin.com/in/tanzir-hossain-shrizon/",
-    PHONE: "(+880) 1404744781",
-    PHONE_ALT: "+8801521575270",
-    ADDRESS: "Road 16, Sector 11, Uttara",
+    EMAIL: "mailto:abrafsan21@gmail.com",
+    GITHUB: "https://github.com/RafsanMunnaf",
+    LINKEDIN: "https://www.linkedin.com/in/abdul-munnaf-rafsan-a92167339/",
+    PHONE: "(+880) 1647254677",
+    PHONE_ALT: "+8801647254677",
+    ADDRESS: "1240/6/A, East Monipur, Mirpur, Dhaka-1216",
   },
 
   ABOUT_ME: {
     INTRO:
-      "I’m an AI Engineer specializing in machine learning, NLP, and automation, with experience building predictive models, optimizing data pipelines, and deploying scalable AI systems. I work with GCP, CI/CD pipelines, Docker, Cloud Run, and Vertex AI to deliver production-ready ML deployments. I also integrate intelligent workflows using vector databases, LangGraph, and n8n to streamline automation and data-driven operations. Whether it's custom workflow automation or fine-tuning open-source models, I deliver efficient, high-performance AI solutions.",
+      "AI Engineer and Python Developer with strong experience in fine-tuning Large Language Models (LLMs), building intelligent voice agents and developing production-ready AI systems. Proficient in TensorFlow, PyTorch, RAG architectures, OCR pipelines and Generative AI workflows for transforming complex data into practical products. Experienced in real-time voice API integration, scalable backend development and containerized deployment for business automation and user-centric AI applications.",
     EXPERTISE:
-      "My expertise lies in LLM fine-tuning, RAG pipelines, ML/DL model development, and AI workflow automation with n8n, bridging research with real-world deployment.",
+      "My expertise lies in LLM fine-tuning, RAG pipelines, Voice AI engineering, deep learning model development, and building end-to-end AI solutions — from research prototypes to production deployments.",
   },
 
   EXPERIENCE: {
@@ -74,35 +73,17 @@ export const DATA = {
         {
           POSITION: "Jr. AI Developer",
           LOCATION: "Dhaka, Bangladesh",
-          DURATION: "Jul, 2025 - Present",
+          DURATION: "Jan, 2025 - Present",
           DESCRIPTION: [
-            "Developed ML and neural network models with TensorFlow and PyTorch; exported via ONNX for cross-platform use.",
-            "Fine-tuned language models using LoRA for financial data analysis and trend prediction.",
-            "Fine-tuned language models using Unsloth for understanding and trend prediction.",
-            "Automated AI workflows and inference pipelines using n8n.",
-            "Created FastAPI endpoints integrated with n8n in a hybrid setup for AI automation tasks.",
+            "Fine-tuned Large Language Models (LLMs) using Unsloth to improve contextual understanding, response quality and trend prediction.",
+            "Developed Retrieval-Augmented Generation (RAG) powered chatbots that produced accurate, context-aware responses across multi-domain datasets.",
+            "Engineered realistic voice AI solutions using ElevenLabs, Coqui TTS and Whisper for voice cloning, transcription and natural conversational flow.",
+            "Built AI-driven conversational agents and automated calling systems using Vapi and Twilio for business communication workflows.",
+            "Developed and deployed deep learning models with TensorFlow and PyTorch while maintaining reproducible production environments using Docker.",
+            "Optimized OCR pipelines with Tesseract and EasyOCR for high-accuracy text extraction from complex documents and images.",
+            "Designed custom AI avatars and Generative AI workflows using Stable Diffusion and GPT to improve product engagement and user interaction.",
           ],
-          TECH_STACK: ["Python", "TensorFlow", "PyTorch", "ONNX", "LoRA", "Unsloth", "n8n", "FastAPI", "Git & Github"],
-        },
-      ],
-    },
-    "Time Research and Innovation LTD": {
-      WEBSITE: "https://timerni.com/",
-      ROLES: [
-        {
-          POSITION: "AI & ML Research Intern",
-          LOCATION: "Dhaka, Bangladesh",
-          DURATION: "Jan, 2025 - Jun, 2025",
-          DESCRIPTION: [
-            "Contributed to the research and development of novel machine learning models, leading to a 10% improvement in predictive accuracy for internal datasets.",
-            "Fine-tuned LLMs (Mistral-7B, LLAMA 3.1) using LoRA/QLoRA, PEFT, and Hugging Face.",
-            "Developed RAG pipelines for NLP-based QA.",
-            "Built preprocessing pipelines (SentenceTransformers) for Bangla-English bilingual text.",
-            "Automated PDF parsing and OCR-based data extraction.",
-            "Authored and maintained comprehensive documentation for experimental setups, data pipelines, and model architectures to ensure reproducibility and knowledge sharing within the team.",
-            "Collaborated with senior researchers to analyze and interpret complex datasets, presenting key findings and insights during weekly team meetings.",
-          ],
-          TECH_STACK: ["Python", "Mistral-7B", "LLAMA 3.1", "LoRA", "QLoRA", "PEFT", "Hugging Face", "RAG", "NLP", "SentenceTransformers", "OCR"],
+          TECH_STACK: ["Python", "LLMs", "RAG", "Voice AI", "TensorFlow", "PyTorch", "Docker", "OCR", "Generative AI", "Vapi", "Twilio", "FastAPI"],
         },
       ],
     },
@@ -110,382 +91,176 @@ export const DATA = {
 
   PROJECTS: [
     {
-      ID: "multi-level-chatbot",
-      TITLE: "Multi-Level Decision-Making Chatbot",
-      DESCRIPTION: "A chatbot framework utilizing multi-level decision-making strategies for enhanced, context-aware interactions.",
-      LONG_DESCRIPTION: "A chatbot framework utilizing multi-level decision-making strategies for enhanced, context-aware interactions. Ideal for developing intelligent conversational agents that require hierarchical reasoning.",
+      ID: "alzheimer-detection",
+      TITLE: "Neuro-Symbolic AI for Alzheimer's Detection",
+      DESCRIPTION: "A hybrid neural-symbolic AI system for early detection of Alzheimer's disease achieving 95.45% accuracy.",
+      LONG_DESCRIPTION: "Developed a Neuro-Symbolic AI system for early detection of Alzheimer's disease, achieving 95.45% accuracy through a hybrid neural-symbolic architecture. Built an audio-processing pipeline extracting MFCC, ZCR and Spectral Centroid features from voice samples for robust signal representation. Combined CNN-LSTM based learning with symbolic reasoning to improve both predictive performance and interpretability of the diagnostic output.",
       FEATURES: [
-        "Multi-level decision making",
-        "Context-aware interactions",
-        "Hierarchical reasoning",
-        "Intelligent conversational agents"
+        "Hybrid neural-symbolic architecture",
+        "Audio feature extraction (MFCC, ZCR, Spectral Centroid)",
+        "CNN-LSTM deep learning pipeline",
+        "Symbolic reasoning for interpretability",
+        "95.45% detection accuracy"
       ],
-      TECHNOLOGIES: ["Python"],
-      CATEGORY: "Agents & Automation",
-      IMAGE: DubAIImage,
-      GITHUB: "https://github.com/itsShrizon/Multi-Level-Decision-Making-Chatbot",
+      TECHNOLOGIES: ["Python", "TensorFlow", "PyTorch", "CNN", "LSTM", "Signal Processing"],
+      CATEGORY: "AI & NLP",
+      IMAGE: CancerDetectionImage,
+      GITHUB: "https://github.com/RafsanMunnaf",
       DEMO: "",
-      FEATURED: false
+      FEATURED: true
     },
     {
-      ID: "resume-screening",
-      TITLE: "Resume Screening Workflow",
-      DESCRIPTION: "Automated resume-screening workflow that fetches resumes, analyzes them with AI, and logs scores.",
-      LONG_DESCRIPTION: "Automated resume-screening workflow that fetches resumes from Google Drive, analyzes them with Gemini and ChatGPT, validates structured JSON, and logs candidate scores into Google Sheets using a strict AI Engineer HR rubric with batching, retries, and full end-to-end automation.",
+      ID: "rag-chatbot",
+      TITLE: "RAG-Powered Chatbot",
+      DESCRIPTION: "Context-aware chatbot using Retrieval-Augmented Generation for accurate multi-domain responses.",
+      LONG_DESCRIPTION: "Developed a Retrieval-Augmented Generation (RAG) powered chatbot that produces accurate, context-aware responses across multi-domain datasets. Integrated vector databases for semantic search, document retrieval and LLM-based answer generation for production use cases.",
       FEATURES: [
-        "Automated resume fetching",
-        "AI analysis with Gemini & ChatGPT",
-        "Structured JSON validation",
-        "Google Sheets logging",
-        "End-to-end automation"
+        "Multi-domain knowledge retrieval",
+        "Context-aware response generation",
+        "Vector database integration",
+        "Semantic search capabilities",
+        "Production-ready architecture"
       ],
-      TECHNOLOGIES: ["Python", "Gemini", "ChatGPT", "Google Drive API", "Google Sheets API"],
+      TECHNOLOGIES: ["Python", "LangChain", "LangGraph", "OpenAI GPT", "FAISS", "FastAPI"],
+      CATEGORY: "AI & NLP",
+      IMAGE: DubAIImage,
+      GITHUB: "https://github.com/RafsanMunnaf",
+      DEMO: "",
+      FEATURED: true
+    },
+    {
+      ID: "voice-ai-agent",
+      TITLE: "Voice AI Conversational Agent",
+      DESCRIPTION: "Realistic voice AI solution with voice cloning, transcription and automated calling for business workflows.",
+      LONG_DESCRIPTION: "Engineered realistic voice AI solutions using ElevenLabs, Coqui TTS and Whisper for voice cloning, transcription and natural conversational flow. Built AI-driven conversational agents and automated calling systems using Vapi and Twilio for business communication workflows.",
+      FEATURES: [
+        "Voice cloning with ElevenLabs & Coqui TTS",
+        "Speech-to-text with Whisper",
+        "Automated calling via Vapi & Twilio",
+        "Natural conversational flow",
+        "Business communication automation"
+      ],
+      TECHNOLOGIES: ["Python", "ElevenLabs", "Coqui TTS", "Whisper", "Vapi", "Twilio"],
       CATEGORY: "Agents & Automation",
       IMAGE: WeatherAppImage,
-      GITHUB: "https://github.com/itsShrizon/Resume-Screening-Workflow",
+      GITHUB: "https://github.com/RafsanMunnaf",
       DEMO: "",
       FEATURED: true
     },
     {
-      ID: "arxiv-assistant",
-      TITLE: "Arxiv Research Assistant",
-      DESCRIPTION: "An assistant tool for searching and analyzing research papers from arXiv.",
-      LONG_DESCRIPTION: "An assistant tool for searching and analyzing research papers from arXiv. Designed to streamline the process of gathering relevant academic resources and extracting key insights in an automated fashion.",
+      ID: "ocr-pipeline",
+      TITLE: "Intelligent OCR Pipeline",
+      DESCRIPTION: "High-accuracy OCR system for text extraction from complex documents and images.",
+      LONG_DESCRIPTION: "Optimized OCR pipelines with Tesseract and EasyOCR for high-accuracy text extraction from complex documents and images. Includes preprocessing, layout analysis and post-processing for structured data output.",
       FEATURES: [
-        "ArXiv paper search",
-        "Automated analysis",
-        "Key insight extraction",
-        "Academic resource gathering"
+        "Multi-engine OCR (Tesseract & EasyOCR)",
+        "Complex document processing",
+        "Image preprocessing pipeline",
+        "Structured data extraction",
+        "High accuracy text recognition"
       ],
-      TECHNOLOGIES: ["Python"],
+      TECHNOLOGIES: ["Python", "Tesseract", "EasyOCR", "OpenCV", "FastAPI"],
       CATEGORY: "AI & NLP",
-      IMAGE: PickAndPlaceImage,
-      GITHUB: "https://github.com/itsShrizon/Arxiv-research-assistant",
-      DEMO: "https://github.com/itsShrizon/Arxiv-Research-Assistant",
-      FEATURED: false
-    },
-    {
-      ID: "etarian-food-recipe",
-      TITLE: "Etarian Food Recipe",
-      DESCRIPTION: "A Python-based application focused on generating, managing, or recommending vegetarian recipes.",
-      LONG_DESCRIPTION: "A Python-based application focused on generating, managing, or recommending vegetarian recipes. Useful for users who wish to maintain a healthy and plant-based diet with ease.",
-      FEATURES: [
-        "Vegetarian recipe generation",
-        "Recipe management",
-        "Dietary recommendations",
-        "Healthy eating support"
-      ],
-      TECHNOLOGIES: ["Python"],
-      CATEGORY: "Software & Web",
-      IMAGE: PickAndPlaceImage,
-      GITHUB: "https://github.com/itsShrizon/Etarian-Food-recipe",
-      DEMO: "",
-      FEATURED: false
-    },
-    {
-      ID: "food-app-stuff",
-      TITLE: "AI Based Food App",
-      DESCRIPTION: "AI Based foodapp using pydantic, langchain and openai.",
-      LONG_DESCRIPTION: "AI Based foodapp using pydantic, langchain and openai. Designed to provide intelligent food-related services.",
-      FEATURES: [
-        "AI-based food services",
-        "Pydantic integration",
-        "LangChain workflows",
-        "OpenAI integration"
-      ],
-      TECHNOLOGIES: ["Python", "Pydantic", "LangChain", "OpenAI"],
-      CATEGORY: "Software & Web",
-      IMAGE: ShapeDrawerImage,
-      GITHUB: "https://github.com/itsShrizon/Food-App-stuff",
-      DEMO: "",
-      FEATURED: false
-    },
-    {
-      ID: "portfolio-website",
-      TITLE: "Portfolio Website",
-      DESCRIPTION: "A personal portfolio website built using HTML, CSS, and JavaScript.",
-      LONG_DESCRIPTION: "A personal portfolio website built using HTML, CSS, and JavaScript. Showcases projects, skills, and contact information for prospective collaborators or employers.",
-      FEATURES: [
-        "Personal portfolio showcase",
-        "Project display",
-        "Skills listing",
-        "Contact information"
-      ],
-      TECHNOLOGIES: ["HTML", "CSS", "JavaScript"],
-      CATEGORY: "Software & Web",
-      IMAGE: BusETicketImage,
-      GITHUB: "https://github.com/itsShrizon/portfolio-website",
-      DEMO: "",
-      FEATURED: false
-    },
-    {
-      ID: "bangla-rag",
-      TITLE: "BanglaRAG",
-      DESCRIPTION: "A Python project dedicated to building retrieval-augmented generation (RAG) systems specifically for the Bangla language.",
-      LONG_DESCRIPTION: "A Python project dedicated to building retrieval-augmented generation (RAG) systems specifically for the Bangla language. Aims to enhance NLP applications for Bangla-speaking users.",
-      FEATURES: [
-        "RAG system for Bangla",
-        "Enhanced NLP applications",
-        "Bangla language support"
-      ],
-      TECHNOLOGIES: ["Python", "RAG", "NLP"],
-      CATEGORY: "AI & NLP",
-      IMAGE: DubAIImage,
-      GITHUB: "https://github.com/itsShrizon/BanglaRAG",
+      IMAGE: SignboardDetectionImage,
+      GITHUB: "https://github.com/RafsanMunnaf",
       DEMO: "",
       FEATURED: true
     },
     {
-      ID: "multi-level-agent",
-      TITLE: "Multi-Level Decision-Making Agent",
-      DESCRIPTION: "Hierarchical AI framework combining symbolic reasoning and reinforcement learning.",
-      LONG_DESCRIPTION: "Multi-Level Decision-Making Agent is a hierarchical AI framework combining symbolic reasoning, hierarchical reinforcement learning, and goal decomposition. Designed for scalable, interpretable multi-agent and robotic systems, it enables real-time decision hierarchies, policy refinement, modular tooling, examples, tests, and extensible demos. v1.0.0",
+      ID: "generative-ai-avatars",
+      TITLE: "AI Avatar & Generative Workflows",
+      DESCRIPTION: "Custom AI avatars and Generative AI workflows using Stable Diffusion and GPT for product engagement.",
+      LONG_DESCRIPTION: "Designed custom AI avatars and Generative AI workflows using Stable Diffusion and GPT to improve product engagement and user interaction. Includes text-to-image generation, style transfer and automated content pipelines.",
       FEATURES: [
-        "Hierarchical AI framework",
-        "Symbolic reasoning",
-        "Reinforcement learning",
-        "Goal decomposition",
-        "Scalable multi-agent systems"
+        "Custom AI avatar generation",
+        "Stable Diffusion integration",
+        "GPT-powered content workflows",
+        "Style transfer capabilities",
+        "Automated content pipelines"
       ],
-      TECHNOLOGIES: ["Python", "PowerShell", "Shell", "Docker"],
+      TECHNOLOGIES: ["Python", "Stable Diffusion", "OpenAI GPT", "ComfyUI", "Docker"],
       CATEGORY: "Agents & Automation",
-      IMAGE: CancerDetectionImage,
-      GITHUB: "https://github.com/itsShrizon/Multi-Level-Decision-Making-Agent",
+      IMAGE: ShapeDrawerImage,
+      GITHUB: "https://github.com/RafsanMunnaf",
       DEMO: "",
       FEATURED: true
     },
     {
-      ID: "bangla-news-classification",
-      TITLE: "Bangla News Classification",
-      DESCRIPTION: "ML/DL approach for Bangla news classification achieving 94% accuracy.",
-      LONG_DESCRIPTION: "BanglaNewsClassifier: ML/DL approach for Bangla news classification. 118,404 articles, 8 categories. Features: web scraping, Bangla-specific preprocessing, hybrid models. Best model (LSTM+SVM stacking) achieves 94% accuracy. Contributes to NLP for low-resource languages.",
+      ID: "llm-finetuning",
+      TITLE: "LLM Fine-Tuning Pipeline",
+      DESCRIPTION: "Production-ready pipeline for fine-tuning Large Language Models using Unsloth for improved performance.",
+      LONG_DESCRIPTION: "Fine-tuned Large Language Models (LLMs) using Unsloth to improve contextual understanding, response quality and trend prediction. Built reproducible training pipelines with evaluation metrics and deployment automation.",
       FEATURES: [
-        "Bangla news classification",
-        "Web scraping",
-        "Bangla-specific preprocessing",
-        "Hybrid models (LSTM+SVM)",
-        "High accuracy (94%)"
-      ],
-      TECHNOLOGIES: ["Jupyter Notebook", "Python", "LSTM", "SVM", "NLP"],
-      CATEGORY: "AI & NLP",
-      IMAGE: SignboardDetectionImage,
-      GITHUB: "https://github.com/itsShrizon/Bangla-News-Classification",
-      DEMO: "",
-      FEATURED: true
-    },
-    {
-      ID: "game-recommendation",
-      TITLE: "Game Recommendation Engine",
-      DESCRIPTION: "Recommender system for suggesting games to users based on their preferences and behaviors.",
-      LONG_DESCRIPTION: "Recommender system for suggesting games to users based on their preferences and behaviors. Uses machine learning or data-driven techniques for personalized recommendations.",
-      FEATURES: [
-        "Game suggestions",
-        "User preference analysis",
-        "Behavior-based recommendations",
-        "Machine learning techniques"
-      ],
-      TECHNOLOGIES: ["Jupyter Notebook", "Python", "Machine Learning"],
-      CATEGORY: "AI & NLP",
-      IMAGE: SignboardDetectionImage,
-      GITHUB: "https://github.com/itsShrizon/Game-Recommendation-Engine",
-      DEMO: "https://github.com/itsShrizon/Game-Recommendation-Engine",
-      FEATURED: false
-    },
-    {
-      ID: "medical-qa-llm",
-      TITLE: "Medical Question-Answering with Generative LLMs",
-      DESCRIPTION: "Generative language models for medical QA with hallucination mitigation and safety evaluation protocols.",
-      LONG_DESCRIPTION: "Explored generative language models for medical question-answering systems. Implemented hallucination mitigation techniques and safety evaluation protocols. Developed responsible AI practices for healthcare domain applications.",
-      FEATURES: [
-        "Generative LLM implementation for medical QA",
-        "Hallucination mitigation techniques",
-        "Safety evaluation protocols",
-        "Responsible AI practices for healthcare",
-        "Medical domain-specific fine-tuning"
-      ],
-      TECHNOLOGIES: ["Python", "LLMs", "Medical NLP", "RAG", "Safety AI"],
-      CATEGORY: "AI & NLP",
-      IMAGE: CancerDetectionImage,
-      GITHUB: "",
-      DEMO: "",
-      FEATURED: false
-    },
-    {
-      ID: "transformer-qa",
-      TITLE: "Transformer-Based Question-Answer System",
-      DESCRIPTION: "Implementation of transformer-based neural networks for question-answering with fine-tuned pre-trained models.",
-      LONG_DESCRIPTION: "Implemented transformer-based neural networks for question-answering tasks. Fine-tuned pre-trained models and evaluated performance on QA benchmarks. Conducted comparative analysis of different transformer architectures.",
-      FEATURES: [
-        "Transformer-based neural network implementation",
-        "Pre-trained model fine-tuning",
-        "QA benchmark evaluation",
-        "Comparative architecture analysis",
+        "Unsloth-based fine-tuning",
+        "Custom dataset preparation",
+        "Evaluation metrics tracking",
+        "Model deployment automation",
         "Performance optimization"
       ],
-      TECHNOLOGIES: ["Python", "Transformers", "BERT", "PyTorch", "Hugging Face"],
+      TECHNOLOGIES: ["Python", "Unsloth", "Hugging Face", "PyTorch", "Docker"],
       CATEGORY: "AI & NLP",
-      IMAGE: ShapeDrawerImage,
-      GITHUB: "",
+      IMAGE: PickAndPlaceImage,
+      GITHUB: "https://github.com/RafsanMunnaf",
       DEMO: "",
       FEATURED: false
     },
     {
-      ID: "agent-whisper",
-      TITLE: "Agent Whisper App",
-      DESCRIPTION: "Real estate agent platform with agentic matchmaking using n8n, Softr, and Airtable for intelligent listing management.",
-      LONG_DESCRIPTION: "Built a real estate agent platform using Softr (frontend) and Airtable (backend) to manage listings and user data. Created agentic matchmaking in n8n to pair listings with buyer personas via rule-based filters. Integrated Softr and Airtable for real-time updates and user interactions. Implemented video generation from static images using n8n and FFmpeg, hosted on Google Cloud Platform (GCP).",
+      ID: "deep-learning-models",
+      TITLE: "Deep Learning Model Suite",
+      DESCRIPTION: "Collection of deep learning models built with TensorFlow and PyTorch for various AI applications.",
+      LONG_DESCRIPTION: "Developed and deployed deep learning models with TensorFlow and PyTorch while maintaining reproducible production environments using Docker. Covers image classification, NLP tasks and time-series prediction.",
       FEATURES: [
-        "Softr frontend with Airtable backend integration",
-        "Agentic matchmaking using n8n automation",
-        "Rule-based filtering for buyer-listing matching",
-        "Video generation from static images with FFmpeg",
-        "Real-time updates and user interactions",
-        "Hosted on Google Cloud Platform"
+        "TensorFlow & PyTorch implementations",
+        "Docker containerized deployment",
+        "Image classification models",
+        "NLP task models",
+        "Production-ready environments"
       ],
-      TECHNOLOGIES: ["n8n", "Softr", "Airtable", "FFmpeg", "GCP", "Automation"],
-      CATEGORY: "Agents & Automation",
+      TECHNOLOGIES: ["Python", "TensorFlow", "PyTorch", "Docker", "MLflow"],
+      CATEGORY: "AI & NLP",
       IMAGE: BusETicketImage,
-      GITHUB: "",
-      DEMO: "https://agentwhisper.tanzir.dev/login",
-      FEATURED: true
+      GITHUB: "https://github.com/RafsanMunnaf",
+      DEMO: "",
+      FEATURED: false
     },
-    {
-      ID: "apply-job-agent",
-      TITLE: "Apply Job Agent",
-      DESCRIPTION: "ML-driven candidate screening platform using resume parsing, text embeddings, and vector databases for intelligent job matching.",
-      LONG_DESCRIPTION: "Built an ML-driven backend for candidate screening using resume parsing and text embeddings for personalized job matching. Utilized PostgreSQL and SQLAlchemy for structured data handling and optimized match accuracy. Automated reporting workflows to enhance analytical efficiency and decision-making. Integrated vector databases to enable semantic search for improved candidate-job relevance. Designed an evaluation pipeline to measure model performance and continuously refine matching logic.",
-      FEATURES: [
-        "Resume parsing and text embedding generation",
-        "PostgreSQL with SQLAlchemy for data management",
-        "Vector database integration for semantic search",
-        "Automated reporting workflows",
-        "Evaluation pipeline for continuous improvement",
-        "Personalized job matching algorithm"
-      ],
-      TECHNOLOGIES: ["Python", "PostgreSQL", "SQLAlchemy", "Vector Databases", "Text Embeddings", "ML"],
-      CATEGORY: "Agents & Automation",
-      IMAGE: WeatherAppImage,
-      GITHUB: "",
-      DEMO: "https://aiapply.co/",
-      FEATURED: true
-    }
   ],
 
   EDUCATION: {
     "BRAC University": {
-      DEGREE: "Bachelor of Science in Computer Science",
+      DEGREE: "Bachelor of Science in Computer Science and Engineering",
       LOCATION: "Dhaka, Bangladesh",
-      DURATION: "2020 - 2024",
-      GRADE: "3.40 CGPA",
-      ACHIEVEMENTS: [
-        "Dean's List (2020)",
-        "Academic Merit Scholarship (2021)",
-      ],
+      DURATION: "2020 - 2025",
+      GRADE: "",
+      ACHIEVEMENTS: [],
       EXTRA_CURRICULARS: [
-        "Senior Executive at BRAC University Computer Club",
-        "Peer Reviewer: PLOS ONE Journal (Natural Language Processing papers)",
+        "Completed Project Associate program at Social Impact Lab, BRAC University",
+        "Lead of Clean Bangladesh 2.0 project at Korail",
       ],
-      SUPERVISOR: {
-        NAME: "Dr. Farig Yousuf Sadeque",
-        DESIGNATION: "Associate Professor, Department of Computer Science and Engineering",
-        EMAIL: "farig.sadeque@bracu.ac.bd",
-      },
-    },
-    "M.E.H Arif College": {
-      DEGREE: "Higher Secondary Certificate (HSC) - Science Stream",
-      LOCATION: "Gazipur, Bangladesh",
-      DURATION: "2016 - 2018",
-      GRADE: "4.58 GPA",
-      ACHIEVEMENTS: [],
-    },
-    "Mouchak Scout High School": {
-      DEGREE: "Secondary School Certificate (SSC)",
-      LOCATION: "Gazipur, Bangladesh",
-      DURATION: "2014 - 2016",
-      GRADE: "5.00 GPA",
-      ACHIEVEMENTS: [],
     },
   },
 
   RESEARCH: {
-    "BanglaNewsClassifier: A machine learning approach for news classification in Bangla Newspapers": {
-      STATUS: "Published in Q1 Journal",
-      COLLABORATORS: ["Ar-Rafi Islam", "Md Humaion Kabir Mehedi", "Annajiat Alim Rasel", "M. Abdullah-AL-Wadud", "Jia Uddin"],
+    "Neuro-Symbolic AI for Early Detection of Alzheimer's Disease": {
+      STATUS: "Completed",
+      COLLABORATORS: [],
       DESCRIPTION:
-        "Developed a high-accuracy Bangla news classification approach using hybrid models, achieving 94% accuracy with a BiLSTM-SVM stacking classifier on 118,404 articles, advancing low-resource language processing. Published in PLOS ONE, 2025.",
-      LINK: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314155",
-      PUBLICATION: "PLOS ONE, 2025",
-      DOI: "10.1371/journal.pone.0314155",
-    },
-    "Advancing legal accessibility in Bangladesh through AI-powered assistance and natural language interfaces": {
-      STATUS: "Published - Undergraduate Thesis",
-      COLLABORATORS: ["Md. Shakil Anawar", "Ar-Rafi Islam", "Md. Adnan Karim"],
-      DESCRIPTION:
-        "Created a legal question-answering system combining transformer-based retrieval, rule-based filtering, and human-in-the-loop feedback. It enabled structured access to Bangladeshi legal content via LLM-based answers and legal citation mapping.",
-      LINK: "http://dspace.bracu.ac.bd/xmlui/handle/10361/22702",
-      PUBLICATION: "BRAC University, 2024",
+        "Developed a Neuro-Symbolic AI system for early detection of Alzheimer's disease, achieving 95.45% accuracy through a hybrid neural-symbolic architecture. Built an audio-processing pipeline extracting MFCC, ZCR and Spectral Centroid features from voice samples for robust signal representation. Combined CNN-LSTM based learning with symbolic reasoning to improve both predictive performance and interpretability of the diagnostic output.",
+      LINK: "",
+      PUBLICATION: "",
     },
   },
 
-  "AWARDS & CERTIFICATIONS": {
-    "Machine Learning with Tree-Based Models in Python": {
-      TYPE: "certification" as const,
-      DATE: "2024",
-      LINK: "https://www.datacamp.com/statement-of-accomplishment/course/9bcfa0a28074c918b6d1dfd656faf7666c5b95d0?raw=1",
-      DESCRIPTION:
-        "Mastered decision trees and ensemble methods for classification and regression using scikit-learn. Learned bagging, random forests, AdaBoost, and Gradient Boosting. Gained expertise in hyperparameter tuning and addressing the bias-variance tradeoff in tree-based models.",
-      FEATURED: true,
-    },
-    "Data Visualization in Tableau": {
-      TYPE: "certification" as const,
-      DATE: "2024",
-      LINK: "https://www.datacamp.com/statement-of-accomplishment/course/c18e7c9410754f98660236ce59645395d38ec14b?raw=1",
-      DESCRIPTION:
-        "Developed advanced data visualization skills using Tableau, covering interactive dashboards, spatial visualizations, and custom charts including Waffle charts, DNA charts, and Sankey charts. Learned best practices for communicating insights effectively through visual storytelling.",
-      FEATURED: false,
-    },
-    "Cluster Analysis in Python": {
-      TYPE: "certification" as const,
-      DATE: "2024",
-      LINK: "https://www.datacamp.com/statement-of-accomplishment/course/e26c81f404aa0f83e5721945d35d33ab62c1346c?raw=1",
-      DESCRIPTION:
-        "Gained proficiency in unsupervised learning through clustering algorithms using SciPy. Covered hierarchical clustering, k-means clustering, data preprocessing, and visualization techniques. Applied clustering to real-world problems including image color analysis and news article grouping.",
-      FEATURED: true,
-    },
-    "Cleaning Data in Python": {
-      TYPE: "certification" as const,
-      DATE: "2024",
-      LINK: "https://www.datacamp.com/statement-of-accomplishment/course/13dfc1f456f3c0359da38a15ca8100555ee5cf16?raw=1",
-      DESCRIPTION:
-        "Mastered data cleaning techniques in Python, including handling improper data types, range constraints, missing data, duplicates, and text inconsistencies. Learned record linkage for merging datasets and ensuring data quality for accurate analysis.",
-      FEATURED: false,
-    },
-    "Dean's List - BRAC University": {
-      TYPE: "award" as const,
-      DATE: "2020",
-      DESCRIPTION:
-        "Recognized on the Dean's List at BRAC University for outstanding academic performance in 2020.",
-      FEATURED: true,
-    },
-    "Academic Merit Scholarship - BRAC University": {
-      TYPE: "award" as const,
-      DATE: "2021",
-      DESCRIPTION:
-        "Recipient of Academic Merit Scholarship at BRAC University for exceptional academic achievement in 2021.",
-      FEATURED: true,
-    },
-  },
+  "AWARDS & CERTIFICATIONS": {},
 
   SKILLS: {
-    Languages: ["Bengali (Native)", "English (Fluent)", "Hindi (Conversational)"],
-    "Programming Languages": ["Python", "JavaScript", "C++", "SQL"],
-    "Machine Learning Frameworks": ["TensorFlow", "PyTorch", "Scikit-learn", "LangChain", "LangGraph", "FastAPI"],
-    "AI/ML Models": ["LLM Fine-tuning (LoRA, QLoRA, PEFT, Unsloth)", "Neural Networks", "RAG Pipelines", "Transformers"],
-    Databases: ["MySQL", "PostgreSQL", "Qdrant", "FAISS", "Airtable"],
-    "Web Technologies": ["FastAPI", "Django"],
-    "Deployment & Scaling": ["Docker", "GCP (Google Cloud Platform)", "AWS"],
-    "Tools & Libraries": ["Pandas", "Scikit-learn", "SQLAlchemy", "FAISS", "Git", "Linux", "Jupyter", "Hugging Face"],
-    "Natural Language Processing": ["OCR", "Document Classification", "Text Parsing", "SentenceTransformers", "Bilingual Text Processing"],
-    "Additional Technologies": ["n8n", "Softr", "ONNX", "FFmpeg"],
+    Languages: ["Bengali (Native)", "English (Fluent)"],
+    "Programming Languages": ["Python", "JavaScript", "C", "C++"],
+    "AI & Machine Learning": ["Model Training", "Fine-tuning", "Feature Engineering", "TensorFlow", "PyTorch", "Scikit-Learn", "LangChain", "LangGraph"],
+    "Deep Learning & NLP": ["Transformers", "Generative AI", "Computer Vision", "OCR", "Document Classification", "Text Parsing", "Chatbot Development", "OpenAI GPT", "Hugging Face", "Rasa"],
+    "Backend & Integration": ["Flask", "FastAPI", "Django", "Node.js", "RESTful APIs", "Voice API Workflows"],
+    "Frontend & Web": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React.js"],
+    "Databases & Analytics": ["MySQL", "PostgreSQL", "NoSQL", "Pandas", "Matplotlib", "Seaborn"],
+    "MLOps & Deployment": ["Docker", "MLflow", "DVC", "Google Cloud Platform (GCP)", "CI/CD Workflow Basics"],
+    "Additional Technologies": ["Git", "GitHub", "Agile Workflows", "n8n", "Softr", "Data Structures", "Dynamic Programming"],
   },
 };

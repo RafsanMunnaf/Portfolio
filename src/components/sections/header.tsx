@@ -16,7 +16,6 @@ interface HeaderData {
   HEADLINE: string;
   RESUME: string;
   EMAIL: string;
-  EMAIL_JVAI?: string;
   GITHUB: string;
   LINKEDIN: string;
   PHONE: string;
@@ -25,7 +24,7 @@ interface HeaderData {
 }
 
 export function Header({ data }: { data: HeaderData }) {
-  const bookingUrl = `https://calendly.com/mailme-tanzir/30min`;
+  const bookingUrl = `https://calendly.com/abrafsan21/30min`;
   const [showCalendly, setShowCalendly] = useState(false);
   
   const handleChange = (url: string) => {
@@ -103,15 +102,7 @@ export function Header({ data }: { data: HeaderData }) {
             >
               <Mail />
             </MovingElement>
-            {data.EMAIL_JVAI && (
-              <MovingElement
-                change={() => handleChange(data.EMAIL_JVAI!)}
-                ariaLabel="Work Email"
-                className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110"
-              >
-                <Briefcase />
-              </MovingElement>
-            )}
+
             <MovingElement
               change={() => handleChange(data.GITHUB)}
               ariaLabel="Github"

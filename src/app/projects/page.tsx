@@ -50,7 +50,7 @@ export default function Page() {
     <div className="mx-auto px-4 pt-6 sm:pt-12 w-full lg:w-2/3 text-foreground min-h-screen">
       <Navbar />
 
-      <h1 className="sr-only">Projects by Tanzir Hossain - AI Engineer</h1>
+      <h1 className="sr-only">Projects by Abdul Munnaf Rafsan - AI Engineer</h1>
 
       <GridPattern
         width={30}
