@@ -6,7 +6,6 @@ import { MovingElement } from "../navbar";
 import { Typewriter } from "../ui/typewriter";
 import { AnimatedAge } from "../ui/animated-age";
 import ScrambledText from "@/components/ui/shadcn-io/scrambled-text";
-import { CalendlyModal } from "../ui/calendly-modal";
 import { useSpring, animated } from "@react-spring/web";
 
 interface HeaderData {
@@ -24,9 +23,6 @@ interface HeaderData {
 }
 
 export function Header({ data }: { data: HeaderData }) {
-  const bookingUrl = `https://calendly.com/abrafsan21/30min`;
-  const [showCalendly, setShowCalendly] = useState(false);
-  
   const handleChange = (url: string) => {
     window.open(url, "_blank");
   };
@@ -88,7 +84,7 @@ export function Header({ data }: { data: HeaderData }) {
           </MovingElement>
           <MovingElement
             className="inline-flex justify-center items-center bg-secondary hover:bg-secondary/80 disabled:opacity-50 shadow-sm hover:shadow-md border border-input px-4 py-2 rounded-md focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring h-9 font-medium text-secondary-foreground text-sm whitespace-nowrap transition-all duration-300 disabled:pointer-events-none"
-            change={() => setShowCalendly(true)}
+            change={() => handleChange(`mailto:${data.EMAIL}`)}
             toChange={false}
             ariaLabel="Book Meeting"
           >
@@ -119,13 +115,6 @@ export function Header({ data }: { data: HeaderData }) {
             </MovingElement>
           </div>
         </div>
-      </animated.div>
-
-      <CalendlyModal
-        open={showCalendly}
-        onClose={() => setShowCalendly(false)}
-        url={bookingUrl}
-      />
-    </section>
+      </animated.div>    </section>
   );
 }
