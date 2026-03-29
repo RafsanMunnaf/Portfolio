@@ -91,6 +91,82 @@ export const DATA = {
 
   PROJECTS: [
     {
+      ID: "ivr-automation",
+      TITLE: "Agentic AI IVR Automation",
+      DESCRIPTION: "Automated IVR appointment and interaction platform with agentic voice conversations.",
+      LONG_DESCRIPTION: "Built an automated IVR appointment and interaction platform using Django REST Framework and PostgreSQL for scheduling and user management. Created agentic voice conversations with Vapi and ElevenLabs to dynamically handle caller intent and generate realistic speech responses. Integrated Django APIs with the voice layer for real-time slot availability, automated booking and workflow orchestration. Containerized the application with Docker and supported deployment workflows through CI/CD-ready infrastructure.",
+      FEATURES: [
+        "Automated IVR appointment scheduling",
+        "Agentic voice conversations via Vapi & ElevenLabs",
+        "Real-time slot availability & booking API",
+        "Django REST Framework & PostgreSQL backend",
+        "Docker containerization & CI/CD deployment"
+      ],
+      TECHNOLOGIES: ["Python", "Django REST", "PostgreSQL", "Vapi", "ElevenLabs", "Docker"],
+      CATEGORY: "Voice AI & Automation",
+      IMAGE: WeatherAppImage,
+      GITHUB: "https://github.com/RafsanMunnaf",
+      DEMO: "",
+      FEATURED: true
+    },
+    {
+      ID: "nutra-ai",
+      TITLE: "Nutra AI Calorie Counter",
+      DESCRIPTION: "AI-powered calorie tracking system using computer vision and smartphone depth sensing.",
+      LONG_DESCRIPTION: "Built an AI-powered calorie tracking system using computer vision and smartphone depth sensing to identify food, estimate volume and calculate macronutrients. Integrated barcode scanning and nutrition APIs to retrieve precise dietary information across different meal types and packaged products. Developed backend services for low-latency image inference and long-term user health log management.",
+      FEATURES: [
+        "Food identification via computer vision",
+        "Volume estimation & macronutrient calculation",
+        "Barcode scanning & nutrition APIs integration",
+        "Low-latency image inference backend",
+        "User health log management"
+      ],
+      TECHNOLOGIES: ["Python", "Computer Vision", "FastAPI", "External APIs"],
+      CATEGORY: "Computer Vision & AI",
+      IMAGE: PickAndPlaceImage,
+      GITHUB: "https://github.com/RafsanMunnaf",
+      DEMO: "",
+      FEATURED: true
+    },
+    {
+      ID: "fondify",
+      TITLE: "Fondify – Intelligent Credit Analysis",
+      DESCRIPTION: "AI-driven financial platform using GPT to analyze credit reports and generate strategies.",
+      LONG_DESCRIPTION: "Built an AI-driven financial platform using GPT to analyze credit reports and generate business growth strategies for users. Integrated secure document processing and matching logic to evaluate credit profiles against suitable financial institutions. Implemented a Retrieval-Augmented Generation (RAG) pipeline to query financial documents and deliver context-aware credit insights.",
+      FEATURES: [
+        "GPT-powered credit report analysis",
+        "Strategic business growth generation",
+        "Secure document processing & profile matching",
+        "RAG pipeline for financial document querying",
+        "Context-aware credit insights"
+      ],
+      TECHNOLOGIES: ["Python", "OpenAI GPT", "RAG", "LangChain"],
+      CATEGORY: "AI & FinTech",
+      IMAGE: DubAIImage,
+      GITHUB: "https://github.com/RafsanMunnaf",
+      DEMO: "",
+      FEATURED: true
+    },
+    {
+      ID: "travel-planner-ai",
+      TITLE: "Travel Planner AI",
+      DESCRIPTION: "Multilingual travel assistant generating personalized itineraries through natural language.",
+      LONG_DESCRIPTION: "Built a multilingual travel assistant that generates personalized itineraries through natural language conversations in English and Chinese. Integrated real-time travel data and third-party APIs such as Booking.com to capture preferences and curate complete travel plans. Implemented robust conversational logic to process complex user inputs and return end-to-end customized schedules.",
+      FEATURES: [
+        "Multilingual conversational assistant (EN/ZH)",
+        "Personalized itinerary generation",
+        "Real-time Booking.com API integration",
+        "Complex user intent processing",
+        "End-to-end customized travel schedules"
+      ],
+      TECHNOLOGIES: ["Python", "LLMs", "NLP", "Booking.com API"],
+      CATEGORY: "Agents & NLP",
+      IMAGE: BusETicketImage,
+      GITHUB: "https://github.com/RafsanMunnaf",
+      DEMO: "",
+      FEATURED: true
+    },
+    {
       ID: "alzheimer-detection",
       TITLE: "Neuro-Symbolic AI for Alzheimer's Detection",
       DESCRIPTION: "A hybrid neural-symbolic AI system for early detection of Alzheimer's disease achieving 95.45% accuracy.",
@@ -103,122 +179,8 @@ export const DATA = {
         "95.45% detection accuracy"
       ],
       TECHNOLOGIES: ["Python", "TensorFlow", "PyTorch", "CNN", "LSTM", "Signal Processing"],
-      CATEGORY: "AI & NLP",
+      CATEGORY: "Research & Healthcare",
       IMAGE: CancerDetectionImage,
-      GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
-      FEATURED: true
-    },
-    {
-      ID: "rag-chatbot",
-      TITLE: "RAG-Powered Chatbot",
-      DESCRIPTION: "Context-aware chatbot using Retrieval-Augmented Generation for accurate multi-domain responses.",
-      LONG_DESCRIPTION: "Developed a Retrieval-Augmented Generation (RAG) powered chatbot that produces accurate, context-aware responses across multi-domain datasets. Integrated vector databases for semantic search, document retrieval and LLM-based answer generation for production use cases.",
-      FEATURES: [
-        "Multi-domain knowledge retrieval",
-        "Context-aware response generation",
-        "Vector database integration",
-        "Semantic search capabilities",
-        "Production-ready architecture"
-      ],
-      TECHNOLOGIES: ["Python", "LangChain", "LangGraph", "OpenAI GPT", "FAISS", "FastAPI"],
-      CATEGORY: "AI & NLP",
-      IMAGE: DubAIImage,
-      GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
-      FEATURED: true
-    },
-    {
-      ID: "voice-ai-agent",
-      TITLE: "Voice AI Conversational Agent",
-      DESCRIPTION: "Realistic voice AI solution with voice cloning, transcription and automated calling for business workflows.",
-      LONG_DESCRIPTION: "Engineered realistic voice AI solutions using ElevenLabs, Coqui TTS and Whisper for voice cloning, transcription and natural conversational flow. Built AI-driven conversational agents and automated calling systems using Vapi and Twilio for business communication workflows.",
-      FEATURES: [
-        "Voice cloning with ElevenLabs & Coqui TTS",
-        "Speech-to-text with Whisper",
-        "Automated calling via Vapi & Twilio",
-        "Natural conversational flow",
-        "Business communication automation"
-      ],
-      TECHNOLOGIES: ["Python", "ElevenLabs", "Coqui TTS", "Whisper", "Vapi", "Twilio"],
-      CATEGORY: "Agents & Automation",
-      IMAGE: WeatherAppImage,
-      GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
-      FEATURED: true
-    },
-    {
-      ID: "ocr-pipeline",
-      TITLE: "Intelligent OCR Pipeline",
-      DESCRIPTION: "High-accuracy OCR system for text extraction from complex documents and images.",
-      LONG_DESCRIPTION: "Optimized OCR pipelines with Tesseract and EasyOCR for high-accuracy text extraction from complex documents and images. Includes preprocessing, layout analysis and post-processing for structured data output.",
-      FEATURES: [
-        "Multi-engine OCR (Tesseract & EasyOCR)",
-        "Complex document processing",
-        "Image preprocessing pipeline",
-        "Structured data extraction",
-        "High accuracy text recognition"
-      ],
-      TECHNOLOGIES: ["Python", "Tesseract", "EasyOCR", "OpenCV", "FastAPI"],
-      CATEGORY: "AI & NLP",
-      IMAGE: SignboardDetectionImage,
-      GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
-      FEATURED: true
-    },
-    {
-      ID: "generative-ai-avatars",
-      TITLE: "AI Avatar & Generative Workflows",
-      DESCRIPTION: "Custom AI avatars and Generative AI workflows using Stable Diffusion and GPT for product engagement.",
-      LONG_DESCRIPTION: "Designed custom AI avatars and Generative AI workflows using Stable Diffusion and GPT to improve product engagement and user interaction. Includes text-to-image generation, style transfer and automated content pipelines.",
-      FEATURES: [
-        "Custom AI avatar generation",
-        "Stable Diffusion integration",
-        "GPT-powered content workflows",
-        "Style transfer capabilities",
-        "Automated content pipelines"
-      ],
-      TECHNOLOGIES: ["Python", "Stable Diffusion", "OpenAI GPT", "ComfyUI", "Docker"],
-      CATEGORY: "Agents & Automation",
-      IMAGE: ShapeDrawerImage,
-      GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
-      FEATURED: true
-    },
-    {
-      ID: "llm-finetuning",
-      TITLE: "LLM Fine-Tuning Pipeline",
-      DESCRIPTION: "Production-ready pipeline for fine-tuning Large Language Models using Unsloth for improved performance.",
-      LONG_DESCRIPTION: "Fine-tuned Large Language Models (LLMs) using Unsloth to improve contextual understanding, response quality and trend prediction. Built reproducible training pipelines with evaluation metrics and deployment automation.",
-      FEATURES: [
-        "Unsloth-based fine-tuning",
-        "Custom dataset preparation",
-        "Evaluation metrics tracking",
-        "Model deployment automation",
-        "Performance optimization"
-      ],
-      TECHNOLOGIES: ["Python", "Unsloth", "Hugging Face", "PyTorch", "Docker"],
-      CATEGORY: "AI & NLP",
-      IMAGE: PickAndPlaceImage,
-      GITHUB: "https://github.com/RafsanMunnaf",
-      DEMO: "",
-      FEATURED: false
-    },
-    {
-      ID: "deep-learning-models",
-      TITLE: "Deep Learning Model Suite",
-      DESCRIPTION: "Collection of deep learning models built with TensorFlow and PyTorch for various AI applications.",
-      LONG_DESCRIPTION: "Developed and deployed deep learning models with TensorFlow and PyTorch while maintaining reproducible production environments using Docker. Covers image classification, NLP tasks and time-series prediction.",
-      FEATURES: [
-        "TensorFlow & PyTorch implementations",
-        "Docker containerized deployment",
-        "Image classification models",
-        "NLP task models",
-        "Production-ready environments"
-      ],
-      TECHNOLOGIES: ["Python", "TensorFlow", "PyTorch", "Docker", "MLflow"],
-      CATEGORY: "AI & NLP",
-      IMAGE: BusETicketImage,
       GITHUB: "https://github.com/RafsanMunnaf",
       DEMO: "",
       FEATURED: false
