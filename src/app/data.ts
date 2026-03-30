@@ -207,7 +207,7 @@ export const DATA = {
       COLLABORATORS: [],
       DESCRIPTION:
         "Developed a Neuro-Symbolic AI system for early detection of Alzheimer's disease, achieving 95.45% accuracy through a hybrid neural-symbolic architecture. Built an audio-processing pipeline extracting MFCC, ZCR and Spectral Centroid features from voice samples for robust signal representation. Combined CNN-LSTM based learning with symbolic reasoning to improve both predictive performance and interpretability of the diagnostic output.",
-      LINK: "",
+      LINK: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0321291",
       PUBLICATION: "",
     },
   },
